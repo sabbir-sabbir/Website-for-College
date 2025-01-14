@@ -1,0 +1,68 @@
+.class-for-hero-section{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7) ), url('/hero.png') no-repeat center center; 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.class-for-hero-content{
+    text-align: center;
+    max-width: 800px;
+
+}
+
+.class-for-hero-content h1{
+    font-size: 60px;
+    font-weight: 600;
+
+}
+.class-for-hero-content p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+/* media query */
+@media (max-width: 850px){
+    .class-for-hero-content{
+        text-align: start;
+        max-width: 800px;
+    }
+    .explore-btn{
+        padding: 12px 20px;
+        font-size: 10px;
+   
+    }
+    .class-for-hero-content h1{
+        padding-top: 30px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 650px){
+    .class-for-hero-content{
+        text-align: start;
+        max-width: 800px;
+    }
+    .class-for-hero-content h1{
+        padding-top: 50px;
+        font-size: 20px ;
+        font-weight: 500;
+    }
+    .class-for-hero-content p{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .explore-btn{
+        padding: 11px 18px;
+        font-size: 9px;
+   
+    }
+}

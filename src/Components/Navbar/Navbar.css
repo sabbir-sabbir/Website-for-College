@@ -1,0 +1,86 @@
+nav{
+    width: 100%;
+    /* background: #333; */
+    color: white;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.class-for-logo{
+    width: 180px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+
+}
+
+.dark-nav{
+    background: skyblue;
+    transition: 0.7s;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/* Media qeury */
+@media (min-width: 1000px){
+    .class-for-logo{
+        width: 140px;
+    }
+    nav ul li{
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width: 840px){
+    nav{
+        padding: 15px 0;
+    }
+    nav ul{
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     z-index: -1;
+     width: 200px;
+     padding-top: 2px;
+     transition: 0.8s;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 12px 80px;
+        color: gray;
+        
+        
+        
+    }
+    .dark-nav{
+        background: none;
+        transition: 0;
+    }
+    .contact-btn{
+        background: skyblue !important;;
+  color: white;
+  padding: 5px 30px;
+  font-size: 8px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+    }
+   
+}
