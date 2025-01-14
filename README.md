@@ -1,8 +1,16 @@
-# React + Vite
+# React + Vite + raw-css + web3 Forms
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## I created this project to polish my rreact js with raw-css rather than tailwind beacuse i want to revise the raw css either 2025 January 🧨🧨🎁🎢
+|
+|
+|
+|
+## Im simplyfying and crafted raw code college web site wich is single page website.👓
+## I attach a API (web3Form) wich is simplyfy the email sending process 🎲..
+## and heres the game changer because without using any external raw coded backend services just trough an API visitors can send a message via email 📧
+## to the authority ✨✨✨
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# ---------------------------------Contribution Oportunity---------------------------------
+# This project is learning purpose so anyone can clone the repo and create second branch 🌿🥙
+# and start contributing {{ Remember }} only use Raw-css because i started it with that.................................although
+# ---------------------HAPPY CONTRIBUTING____________________________________________________
